@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.csci5221.locationbasedservice"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/projectimage"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.csci5221.locationbasedservice.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.csci5221.locationbasedservice.SignIn"
+            android:label="@string/title_activity_sign_in"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.csci5221.locationbasedservice.SignInUp"
+            android:label="@string/title_activity_sign_in_up" >
+        </activity>
+        <activity
+            android:name="com.csci5221.locationbasedservice.CreateProfile"
+            android:label="@string/title_activity_create_profile" >
+        </activity>
+        <activity
+            android:name="com.csci5221.locationbasedservice.Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.csci5221.locationbasedservice.AddEvent"
+            android:label="@string/title_activity_add_event" >
+        </activity>
+        <activity
+            android:name="com.csci5221.locationbasedservice.ListEventItemListActivity"
+            android:label="@string/title_listeventitem_list" >
+        </activity>
+        <activity
+            android:name="com.csci5221.locationbasedservice.ListEventItemDetailActivity"
+            android:label="@string/title_listeventitem_detail"
+            android:parentActivityName="com.csci5221.locationbasedservice.ListEventItemListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListEventItemListActivity" />
+        </activity>
+        <activity
+            android:name="com.csci5221.locationbasedservice.AddListEvent"
+            android:label="@string/title_activity_add_list_event" >
+        </activity>
+        <activity
+            android:name="com.csci5221.locationbasedservice.ListActivity"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="com.csci5221.locationbasedservice.PrintListOfEvent"
+            android:label="@string/title_activity_print_list_of_event" >
+        </activity>
+        <activity
+            android:name="com.csci5221.locationbasedservice.Second_Activity"
+            android:label="@string/title_activity_second_" >
+        </activity>
+        <activity
+            android:name="com.csci5221.locationbasedservice.PrintNearEvents"
+            android:label="@string/title_activity_print_near_events" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocationBasedService</string>
+    <string name="action_settings">Settings</string>
+    <string name="user">User</string>
+    <string name="org">Event Organiser</string>
+    <string name="title_activity_sign_in_up">SignInUp</string>
+    <string name="signin">Sign In</string>
+    <string name="title_activity_create_profile">CreateProfile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="login">Sign in</string>
+    <string name="eventName">Event Name</string>
+    <string name="categoryName">Category Name</string>
+    <string name="cityName">City Name</string>
+    <string name="listEvents">List Events</string>
+    <string name="addEvents">Add Event</string>
+    <string name="streetName">Street Name</string>
+    <string name="zipcodeCity">Zip Code</string>
+    <string name="startDetail">Start Date : dd/MM/yyyy</string>
+    <string name="endDetail">End Date : dd/MM/yyyy</string>
+    <string name="createsignup">Sign Up</string>
+    <string name="create">Create Profile</string>
+    <string name="cprompt_password">Confirm Password</string>
+    <string name="phone">Phone Number</string>
+    <string name="detail">Event Detail</string>
+    <string name="AddEvent">Add Event</string>
+    <string name="name">Username</string>
+    <string name="email">Email</string>
+    <string name="signup">Not a Member? Sign Up!</string>
+    <string name="prompt_cpassword">Confirm Password</string>
+    <string name="search">search</string>
+    <string name="numEvent">Maximum #Events</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_add_event">AddEvent</string>
+    <string name="title_listeventitem_list">Registered Events</string>
+    <string name="title_listeventitem_detail">Event\'s detail</string>
+    <string name="title_activity_add_list_event">AddListEvent</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_print_list_of_event">PrintListOfEvent</string>
+    <string name="title_activity_second_">Second_Activity</string>
+    <string name="title_activity_print_near_events">PrintNearEvents</string>
+
+</resources>
