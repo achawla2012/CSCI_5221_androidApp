@@ -1,7 +1,7 @@
 package com.location.business;
 
 import java.util.List;
-
+// Test files.
 public class Login
 {
 	private int eventUserId = -1;
